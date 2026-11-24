@@ -1,0 +1,28 @@
+{
+  "name": "@incosmos/device-wallpaper-specs",
+  "version": "1.0.0",
+  "description": "2026-2027 device wallpaper resolutions, safe-zone SVG templates, and crop-fit checker for iPhone Duo, iPhone 18 Pro, Galaxy Z Fold8/Flip8, iPad, and 5K Mac.",
+  "type": "module",
+  "main": "./scripts/check-fit.mjs",
+  "bin": {
+    "check-wallpaper-fit": "./scripts/check-fit.mjs"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "wallpaper",
+    "resolution",
+    "iphone-duo",
+    "galaxy-z-fold8",
+    "iphone-18",
+    "safe-zone",
+    "svg"
+  ],
+  "license": "MIT",
+  "homepage": "https://incosmos.art",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smallcolor/device-wallpaper-specs.git"
+  }
+}
